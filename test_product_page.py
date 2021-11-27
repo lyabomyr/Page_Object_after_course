@@ -106,3 +106,4 @@ class TestUserAddToBasketFromProductPage():
         page.add_product_to_cart()
         page.check_info(link)
 
+#Thanks for rewiev

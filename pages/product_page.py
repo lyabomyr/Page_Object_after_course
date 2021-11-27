@@ -29,6 +29,3 @@ class ProductPage(BasePage):
     def should_be_logged_in(self):
         assert self.is_element_present(*BasePageLocators.USER_ICON), \
             "User icon is not presented"
-
-
-#Hello
